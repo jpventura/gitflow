@@ -1,0 +1,33 @@
+{
+  "env": {
+    "jest": true
+  },
+  "extends": [
+    "airbnb-base",
+    "airbnb-typescript/base"
+  ],
+  "globals": {
+    "__CLIENT__": true,
+    "__DEV__": true,
+    "__SERVER__": true
+  },
+  "ignorePatterns": [
+    "web-build/*"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+
+    "ecmaVersion": 2020,
+    "project": [
+      "./jest.config.json",
+      "./tsconfig.json"
+    ],
+    "sourceType": "module"
+  },
+  "plugins": [
+    "@typescript-eslint",
+    "import"
+  ],
+  "root": true,
+  "rules": {}
+}
