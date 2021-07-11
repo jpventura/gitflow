@@ -1,0 +1,22 @@
+{
+  "author": {
+    "email": "contact@jpventura.com",
+    "name": "JP Ventura",
+    "url": "https://br.linkedin.com/in/jpventura"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.1",
+    "@commitlint/config-angular": "^12.1.1",
+    "husky": "^6.0.0"
+  },
+  "keywords": [
+    "changelog",
+    "conventional",
+    "conventional-changelog"
+  ],
+  "private": true,
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "version": "0.0.0"
+}
