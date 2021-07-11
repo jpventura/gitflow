@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "outDir": "build/lib",
+    "target": "es6"
+  },
+  "exclude": [
+    "node_modules/**"
+  ],
+  "extends": "./tsconfig"
+}
