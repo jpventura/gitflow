@@ -1,0 +1,38 @@
+{
+  "env": {
+    "jest": true
+  },
+  "extends": [
+    "airbnb",
+    "airbnb/hooks",
+    "airbnb-typescript"
+  ],
+  "globals": {
+    "__CLIENT__": true,
+    "__DEV__": true,
+    "__SERVER__": true
+  },
+  "ignorePatterns": [
+    "web-build/*"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2020,
+    "project": [
+      "./jest.config.json",
+      "./tsconfig.json"
+    ],
+    "sourceType": "module"
+  },
+  "plugins": [
+    "@typescript-eslint",
+    "import",
+    "jsx-a11y",
+    "react"
+  ],
+  "root": true,
+  "rules": {}
+}

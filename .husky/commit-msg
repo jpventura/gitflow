@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+. "$(dirname "$0")/_/husky.sh"
+
+npm run format
+node node_modules/@commitlint/cli/lib/cli.js -e ${HUSKY_GIT_PARAMS}
